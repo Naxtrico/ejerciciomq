@@ -9,10 +9,11 @@ html, body{
 
 h1{
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: bold;
 	color:#80105F;
 	font-family: 'PT Serif', serif;
 	text-transform:uppercase;
+	float:left;
 
 }
 
@@ -21,18 +22,128 @@ h2{
 	font-size: 14px;
 	font-weight: 400;
 	text-transform:uppercase;
+	color:#923276;
+
 }
 p{
 font-family: 'Lato', sans-serif;
 font-size: 16px;
-font-weight: 400;
+font-weight: 100;
 }
 
 .contentheader{
 	width: 100%;
-	background-color: #27D9BA;
+	background-image:linear-gradient(90deg, #27D9BA, #0080B8);
 	height:72px;
 
+}
+.socialmedia{
+	display:block;
+	overflow: hidden;
+	padding-right: 32px;
+	padding-left: 32px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.socialmedia p{
+	float:left;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	
+}
+
+.socialmedia ul{
+	float:right;
+	margin:auto;
+}
+.socialmedia li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 9px;
+
+
+}
+.contenttittle{
+	outline: 1px solid #EFEDEA;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display:block;
+	overflow: hidden;
+}
+.euros{
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-weight: 100;
+	float:right;
+	padding-right: 20px;
+
+}
+.sizes{
+	outline: 1px solid #EFEDEA;
+	display:block;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.sizes a{
+	
+	display: inline-block;
+	float:left;
+
+
+}
+
+.sizes p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	text-decoration: underline;
+	margin-left: 30px;
+	float: left;
+}
+
+.buttonsizes{
+	padding: 20px 20px;
+	display:inline-block;
+	outline: 1px solid #EFEDEA;
+	text-decoration: none;
+	color:#4A4A4A;
+	float: left;
+
+}
+
+.btnpay{
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.btn_pay{
+	font-family: 'Lato', sans-serif;
+	padding: 20px 30px;	
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 100;
+	cursor: pointer;
+	background-color: #137AFE;
+	text-decoration: none;
+	color:#fff;
+	display: inline-block;
+	text-transform: uppercase;
+	box-sizing: border-box;  
+
+
+}
+.contentinfo{
+	padding-top: 20px;
+	background-color: rgba(83,186,232,0.37);
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 .logo{
@@ -54,8 +165,9 @@ font-weight: 400;
 
 }
 .product{
-	height: 1152px;
+	
 	width: 100%;
+	margin: auto;
 }
 
 .contentimage{
@@ -65,8 +177,27 @@ font-weight: 400;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+footer{
+	background-color: #032040;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
 
-
+.logofooter{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #0FD9C7;
+}
+.copyright{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	font-weight: 100;
+	color: #fff;
+}
 
 
 
